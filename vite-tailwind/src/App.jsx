@@ -1,5 +1,12 @@
 import './App.css';
-import mark from './assets/images/mark.webp'
+import uno from './assets/images/uno.png';
+import dos from './assets/images/dos.png';
+import tres from './assets/images/tres.png';
+import cuatro from './assets/images/cuatro.png';
+import cinco from './assets/images/cinco.png';
+import seis from './assets/images/seis.png';
+import galaga from './assets/images/galaga.jpeg';
+
 
 function App() {
 
@@ -8,46 +15,93 @@ function App() {
       {/* Frontend Mentor | Notifications page */}
       <section className='main'>
         <div className='notifications'>
-          <h3 className='title'>Notifications<span>3</span></h3>
+          <h3 className='title'>Notifications <span className='number'>4</span></h3>
           <p className='mark'>Mark all as read</p>
         </div>
+
         <div className='post'>
-          <img src={mark} alt="" />
+          <img className='image' src={uno} alt="" />
           <div>
             <p>
-              <span className='name'>Mark Webber</span>
-              <span>reacted to your recent post</span>
+              <span className='name'>Chica </span>
+              <span>reacted to your recent post </span>
               <span className='reaction'>My first tournament today!</span>
-              <span className='stsatus'>*</span>
+              <span className='status not-read'></span>
             </p>
-            <p className='time'>1m ago</p>
+            <p className='time'>1m fa</p>
           </div>
         </div>
+
+        <div className='post'>
+          <img className='image' src={dos} alt="" />
+          <div>
+            <p>
+              <span className='name'>Chontaduro </span>
+              <span>followed you</span>
+              <span className='status not-read'></span>
+            </p>
+            <p className='time'>5m fa</p>
+          </div>
+        </div>
+
+        <div className='post'>
+          <img className='image' src={tres} alt="" />
+          <div>
+            <p>
+              <span className='name'>Pepita </span>
+              <span>has joined your group </span>
+              <span className='group'>2600 Club</span>
+              <span className='status not-read'></span>
+            </p>
+            <p className='time'>1 giorno fa</p>
+          </div>
+        </div>
+
+        <div className='post'>
+          <img className='image' src={cuatro} alt="" />
+          <div>
+            <p>
+              <span className='name'>Aracacha </span>
+              <span>sent you a private message </span>
+              <span className='status not-read'></span>
+            </p>
+            <p className='time'>5 giorni fa</p>
+            <div className='message-container'>
+            <p className='message'>Hello, thanks for setting up the 2600 Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='post'>
+          <img className='image' src={cinco} alt="" />
+          <div>
+            <p>
+              <span className='name'>Mazorca </span>
+              <span>commented on your picture </span>
+              <span className='status'></span>
+            </p>
+            <p className='time'>1 settimana fa</p>
+          </div>
+          <img className='picture' src={galaga} alt="" />
+        </div>
+
+        <div className='post'>
+          <img className='image' src={seis} alt="" />
+          <div>
+            <p>
+              <span className='name'>Panela </span>
+              <span>reacted to your recent post </span>
+              <span className='reaction'>5 end-game strategies to increase your win rate</span>
+              <span className='status'></span>
+            </p>
+            <p className='time'>2 settimane fa</p>
+          </div>
+        </div>
+
+       
+
       </section>
 
-
-
-
-
-      Angela Gray followed you
-      5m ago
-
-      Jacob Thompson has joined your group Chess Club
-      1 day ago
-
-      Rizky Hasanuddin sent you a private message
-      5 days ago
-      Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
-      I'm already having lots of fun and improving my game.
-
-      Kimberly Smith commented on your picture
-      1 week ago
-
-      Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-      2 weeks ago
-
-      Anna Kim left the group Chess Club
-      2 weeks ago
     </body>
   )
 }
