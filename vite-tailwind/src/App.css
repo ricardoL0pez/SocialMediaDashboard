@@ -4,3 +4,16 @@
   padding: 2rem;
   text-align: center;
 } */
+
+.main{
+  padding: 24px 16px;
+}
+
+.notifications{
+display: flex;
+justify-content: space-between;
+margin-bottom: 24px;
+& .title {
+  
+}
+}

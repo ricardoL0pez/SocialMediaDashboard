@@ -21,11 +21,48 @@ body {
   min-height: 100vh;
 } */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root{
+ --Red: hsl(1, 90%, 64%);
+ --Blue: hsl(219, 85%, 26%);
+ --White: hsl(0, 0%, 100%);
+ --Very-light-grayish-blue: hsl(210, 60%, 98%);
+ --Light-grayish-blue-1: hsl(211, 68%, 94%);
+ --Light-grayish-blue-2: hsl(205, 33%, 90%);
+ --Grayish-blue: hsl(219, 14%, 63%);
+ --Dark-grayish-blue: hsl(219, 12%, 42%);
+ --Very-dark-blue: hsl(224, 21%, 14%);
+}
 
+@font-face{
+  font-family: 'Plus Jakarta Sans';
+  src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf)
+}
 
-
+body{
+  font-family: 'Plus Jakarta Sans';
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer components {
+  .card {
+    @apply bg-red-500 w-40 h-40 grid place-content-center rounded-lg text-white font-bold border-2 border-red-800 text-4xl;
+  }
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
