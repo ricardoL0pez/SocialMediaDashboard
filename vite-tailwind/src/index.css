@@ -36,13 +36,14 @@ body {
   src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf)
 } */
 
-body{
-  background-color: rgb(29, 29, 29)
-} 
+/* body{
+  background-color: white
+}  */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: 'Inter';
   src: url(./assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
