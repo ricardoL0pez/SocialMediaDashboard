@@ -33,7 +33,7 @@ export const OverviewCard = ({ network, user, audience, audienceType, today, isU
             <p className='uppercase tracking-[5px] text-Dark-Grayish-Blue text-xs mb-6'>{audienceType}</p>
             <div className='flex items-center place-content-center'>
             <img src={isUp ? up : down} alt="icon arrow" />
-            <p className={`text-xs font-bold ${isUp ? 'text-Lime-Green':'text-Bright-Red'}`}>{today} Today</p>
+            <p className={`text-xs font-bold ${isUp ? 'text-Lime-Green':'text-Bright-Red tracking-widest'}`}>{today} Today</p>
             </div>
         </article>
     )

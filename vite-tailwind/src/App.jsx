@@ -8,15 +8,16 @@ import Attribution from './components/Attribution';
 function App() {
 
   return (
-    <>
+    <div>
      <Header/>
      <div className='absolute top-[191px]'>
      <OverviewContainer/>
      <OverviewTodayContainer/>
-     <Attribution/>
+     <div className='bg-[#50C4ED] w-[90%] flex left-0 right-0 mx-auto justify-center mt-10 rounded-full'><Attribution /></div>
+     
      </div>
     
-    </>
+    </div>
   )
 }
 

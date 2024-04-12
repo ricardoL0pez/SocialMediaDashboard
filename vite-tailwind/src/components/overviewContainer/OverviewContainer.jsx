@@ -35,10 +35,10 @@ export const OverviewContainer = () => {
 export const OverviewTodayContainer = () => {
   return (
     <section>
-    <h2 className="mt-10 text-2xl font-bold mb-[27px] text-Dark-Grayish-Blue ml-8 dark:text-White">Overview - Today</h2>
-    <div className="flex flex-wrap"> 
+    <h2 className="mt-10 text-2xl font-bold mb-[27px] text-[#333A73] ml-8 dark:text-White">Overview - Today</h2>
+    <div className="flex flex-wrap "> 
       {data['overview-today'].map(object => (
-        <div key={object.id} className="lg:w-1/4 p-2  flex gap-10">
+        <div key={object.id} className="lg:w-1/4 p-2  flex gap-10 left-0 right-0 mx-auto">
         <OverviewTodayCard
           network={object.network}
           statsType={object.statsType}
