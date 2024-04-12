@@ -15,7 +15,7 @@ const Header = () => {
     }, [darkMode]);
 
     return (
-        <header className="bg-[#50C4ED] dark:bg-Very-Dark-Blue-Top h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[430px] xl:mb-[200px]" >
+        <header className="bg-[#50C4ED] dark:bg-Very-Dark-Blue-Top h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[430px] xl:mb-[200px] drop-shadow-lg" >
             <h1 className="text-[#333A73] dark:text-Very-Pale-Blue text-2xl font-bold mb-1">Social media dashboard</h1>
             <p className=" text-Light-Grayish-Blue dark:text-Desaturated-Blue font-bold mb-6 tracking-widest">Total Followers: 23,004</p>
             
