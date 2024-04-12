@@ -13,7 +13,7 @@ function App() {
      <div className='absolute top-[191px]'>
      <OverviewContainer/>
      <OverviewTodayContainer/>
-     <div className='bg-[#50C4ED] w-[90%] flex left-0 right-0 mx-auto justify-center mt-10 rounded-full'><Attribution /></div>
+     <div className='bg-[#50C4ED] dark:bg-Very-Dark-Blue-Top w-[90%] flex left-0 right-0 mx-auto justify-center mt-10 rounded-full'><Attribution /></div>
      
      </div>
     
